@@ -241,6 +241,26 @@ header ul li a:hover {
     animation-delay: 3.7s;
 }
 
+.book:nth-child(28) {
+    animation-delay: 3.8s;
+}
+
+.book:nth-child(29) {
+    animation-delay: 3.9s;
+}
+
+.book:nth-child(30) {
+    animation-delay: 4.0s;
+}
+
+.book:nth-child(31) {
+    animation-delay: 4.1s;
+}
+
+.book:nth-child(32) {
+    animation-delay: 4.2s;
+}
+
 article {
     display: flex;
     justify-content: center;
