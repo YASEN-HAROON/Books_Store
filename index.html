@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,11 +15,9 @@
         <header>
             <div class="menu-toggle" id="menu-toggle">
                 <span></span>
-                <span></span>
-                <span></span>
             </div>
             <ul id="nav-menu">
-                <li class="head"><a href="">Book-Store</a></li>
+                <li class="head"><a href="../index.html">Book-Store</a></li>
             </ul>
         </header>
         <article>
@@ -59,6 +57,9 @@
                     <option value="القادمون">
                     <option value="فندق المقبرة">
                     <option value="ليلة ظهور القرين">
+                    <option value="يوتوبيا">
+                    <option value="أرض الإله">
+                    <option value="مخطوطة بن إسحاق">
                 </datalist>
             </form>
 
@@ -349,16 +350,43 @@
                         <button class="book-button">PDF</button>
                     </a>
                 </div>
+
+                <!-- يوتوبيا -->
+                <div class="book">
+                    <h3 class="book-head">يوتوبيا</h3>
+                    <img class="book-img" src="يوتوبيا.PNG" alt="يوتوبيا">
+                    <a href="يوتوبيا.pdf" target="_blank">
+                        <button class="book-button">PDF</button>
+                    </a>
+                </div>
+
+                <!-- أرض الإله -->
+                <div class="book">
+                    <h3 class="book-head">أرض الإله</h3>
+                    <img class="book-img" src="أرض الإله.PNG" alt="فندق الإله">
+                    <a href="أرض الإله.pdf" target="_blank">
+                        <button class="book-button">PDF</button>
+                    </a>
+                </div>
+
+                <!-- مخطوطة بن إسحاق -->
+                <div class="book">
+                    <h3 class="book-head">مخطوطة بن إسحاق</h3>
+                    <img class="book-img" src="مخطوطة بن إسحاق.PNG" alt="مخطوطة بن إسحاق">
+                    <a href="مخطوطة بن إسحاق.pdf" target="_blank">
+                        <button class="book-button">PDF</button>
+                    </a>
+                </div>
         </article>
 
         <footer>
             <h5>Devoloper / Yasen Haroon</h5><br>
             <a href="https://github.com/YASEN-HAROON" target="_blank">
-                <img src="GitHub-Logo.png" alt="GitHub Logo" height="50" width="100">
+                <img src="GitHub-Logo.png" alt="GitHub" height="50" width="100">
             </a>
 
             <a href="https://www.linkedin.com/in/yasen-haroon-017035396/" target="_blank">
-                <img src="linkedin-logo.webp" alt="Linkedin Logo" height="50" width="70">
+                <img src="linkedin-logo.webp" alt="Linkedin" height="50" width="70">
             </a>
         </footer>
         <script>
@@ -407,7 +435,6 @@
                     }
                 });
 
-                // لو السيرش فاضي يرجّع الكل
                 if (value === "") {
                     books.forEach(book => book.style.display = "");
                 }
@@ -415,4 +442,3 @@
         </script>
     </body>
 </html>
-
